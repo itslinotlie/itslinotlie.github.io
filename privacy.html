@@ -27,25 +27,34 @@
             <h3><b>What Information is collected</b></h3>
             <p>
                 Nothing. The script runs locally on the user’s machine and no information is ever saved throughout the process.
-                The information that is parsed through the Spreadsheet is directly transferred onto the Form with no third-party 
-                collecting the data. <br>
+                The information on the Spreadsheet is parsed through the script and is regurgitated onto a Google Form. There is 
+                no third-party that collects data during this process. <br>
     
                 Although some of the scopes may seem to indicate otherwise (i.e. “See, edit, create, and delete all of your 
-                Google Drive files”), this is because there are no lower permission alternatives. From the given example, the 
-                script only “sees” the Google Drive image URLs provided to conveniently place the images on the Form. 
-    
+                Google Drive files”), this is because there are no lower permission alternatives. Following the given example, the 
+                script only “sees” the Google Drive image URLs that are provided in the Spreadsheet to place the image onto the "created" Google Form.
+                For the technically savvy people, you will see that the only times that the script ever references "delete"-something is to delete extra 
+                rows/columns when initializing the Spreadsheet. 
+
+                tldr; the Spreadsheet only accesses the data given, even though it may not seam like so sometimes
             </p> <br>
-    
-            <h3><b>How is your data used?</b></h3>
+    <!-- 
+      The privacy policy clearly describes the way your application accesses, uses, stores, or shares Google user data.
+     -->
+            <h3><b>How is the data used?</b></h3>
             <p>
-                The information you have on your Spreadsheet and the URLs you provide get parsed through the script, 
-                which allows you to conveniently create your Forms. As mentioned before, no information is kept during 
-                this process as everything runs locally. 
+                Information on the Spreadsheet is used to create Google Forms. By parsing the information on the Google Sheets,
+                the script is able to create the desired Google Form. As mentioned before, there is no keeping of user data throughout this process.
+                Everything runs locally and nothing is saved.
+
+                tldr; the Spreadsheet only uses given information and nothing is stored through the script
             </p> <br>
     
             <h3><b>What information is shared?</b></h3>
             <p>
                 Your data is safe from being shared, as nothing is ever collected with the add-on.
+
+                tldr; no data is being stored
             </p> <br>
     
             <h3><b>Contact Us</b></h3>
@@ -53,8 +62,6 @@
                 If you have any questions regarding the Privacy Policy, please email us at michael.li.web@gmail.com 
             </p> <br>
         </div>
-
-
       </section>
     </div>
 
